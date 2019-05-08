@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|IM+Fell+English+SC');
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,);
+		transform: translatey(0px) translateX(0px);
+
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,);
+		transform: translatey(-20px) translateX(-15px);
+
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,);
+		transform: translatey(0px) translateX(0px);
+
+	}
+}
+
+body {
+	width: 20000px;
+	height: 20000px;
+
+	/* background-image: linear-gradient(rgba(0, 0, 0, .7) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, .7) .1em, transparent .1em); */
+	/*background-size: 3em 3em; */
+
+	background-image: url(../media/cloud1.jpg);
+
+}
+
+#line_1:hover{
+	color: pink;
+	cursor: crosshair;
+}
+
+#line_2:hover{
+	color: pink;
+	cursor: crosshair;
+}
+
+#line_3:hover{
+	color: pink;
+	cursor: crosshair;
+}
+
+#line_4:hover{
+	color: pink;
+	cursor: crosshair;
+}
+
+#cloud_float{
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+
+}
+
+#line_1{
+	margin-left: 100px;
+	margin-top: -200px;
+	position: absolute;
+	font-family: 'Arial', sans-serif;
+	font-size: 4em;
+	text-shadow: 5px 5px 5px grey;
+	color: yellow;
+}
+
+#line_2{
+	margin-left: 18300px;
+	margin-top: -700px;
+	position: absolute;
+	font-family: 'Arial', sans-serif;
+	font-size: 5em;
+	text-shadow: 5px 5px 5px #aaaaaa;
+	color: yellow;
+}
+
+#line_3{
+	margin-left: 11300px;
+	margin-top: -600px;
+	position: absolute;
+	font-family: 'Arial', sans-serif;
+	font-size: 5em;
+	text-shadow: 5px 5px 5px #aaaaaa;
+	color: yellow;
+}
+
+#line_4{
+	margin-left: 3600px;
+	margin-top: -600px;
+	position: absolute;
+	font-family: 'Arial', sans-serif;
+	font-size: 5em;
+	text-shadow: 5px 5px 5px #aaaaaa;
+	color: yellow;
+}
+
+#ocean{
+
+	width: 20000;
+	height: 5000px;
+	background-image: url(../media/dirtier.jpg);
+	margin-top: 5000px;
+
+}
